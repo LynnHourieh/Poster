@@ -1,58 +1,83 @@
+.container{
+    
+}
+
+
+
+
+
+
+
+
 
 .head img{
     width: 100%;
 }
 
-
-
 .paragraph{
     text-align: center;
+    font-size: 40PX;
 }
-
-
 
 .title{
     color:#8992fa;
     text-align: center;
-
+    /* text-shadow: 2px 2px 5px rgb(133, 206, 206); */
 }
-
-
 
 .list{
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-around;
     padding: 30px;
     text-align: left;
+
 }
 
 
+.list-left{
+    padding: 10px;
+}
+
+
+
+.list-between {
+    padding: 10px;
+}
+
+
+
+.list-right {
+    padding: 10px;
+}
+
+
+
+
+    
 .table{
         border-collapse: collapse;
         width: 100%;
         text-align: left;
-    display:grid;
-
-    }
+        display:grid;
+}
     
-    .table td, .table th {
+.table td, .table th {
         border: 1px solid #ddd;
         padding: 8px;
-    }
+        font-size: 25px;
+}
     
-    .table tr:nth-child(even){background-color: #f2f2f2;}
+.table tr:nth-child(even){background-color: #f2f2f2;}
     
-    .table tr:hover {background-color: #ddd;}
+.table tr:hover {background-color: #ddd;}
     
-    .table th {
+.table th {
         padding-top: 12px;
         padding-bottom: 12px;
         text-align: left;
         background-color: #a8dbec;
         color: white;
 }
-
-
 
 .icons{
     display: flex;
@@ -70,9 +95,29 @@
     margin-left: -.5rem;
 }
 
-
-
 .padding{
 padding: 20px;
+}
+
+
+.border{
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 7px 4px rgb(165, 164, 164);
+    width: 20%;
+    font-size: 25px;
+}
+
+.zoom {
+    transition: transform .2s; 
+}
+.zoom:hover {
+    transform: scale(1.3); 
+}
+
+.delet-polet{
+    list-style: none;
 
 }
