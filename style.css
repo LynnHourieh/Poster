@@ -16,7 +16,6 @@
         font-size: 15px;
     }
 
-
     div.list {
         display:list-item;
 
@@ -35,12 +34,7 @@
     }  
 }  
 
-
-
 @media screen and (max-width: 740px) {
-
-
-
     div h1 {font-size: 30PX;}
 
     div a{
@@ -56,10 +50,8 @@
 
     div.table td ,div.table th{
         font-size: 15px;
-}  
+    }  
 }
-
-
 
 img{
     width: 100%;
@@ -87,32 +79,24 @@ a{
     font-size: 25PX;
 }
 
-
 .list{
     display: flex;
     justify-content: space-around;
     padding: 30px;
     text-align: left;
-
 }
-
 
 .list-left{
     padding: 10px;
 }
 
-
-
 .list-between {
     padding: 10px;
 }
 
-
-
 .list-right {
     padding: 10px;
 }
-
 
 .border{
     border: 2px solid #ddd;
@@ -135,9 +119,6 @@ a{
     list-style: none;
 
 }
-
-
-
     
 .table{
         border-collapse: collapse;
@@ -162,14 +143,12 @@ a{
         text-align: left;
         background-color: #a8dbec;
         color: white;
-
 }
 
 .icons{
     display: flex;
     overflow: hidden;
     padding-left:0.5rem ;
-
 }
 
 .icons img{
@@ -181,7 +160,6 @@ a{
     margin-right: 0;
     margin-left: -.5rem;
 }
-
 
 .more{
     display: flex;
@@ -195,5 +173,10 @@ a{
 padding: 20px;
 }
 
+
+.scroll{
+
+  text-align: right;
+}
 
 
