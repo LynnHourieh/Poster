@@ -37,6 +37,34 @@
 
 
 
+@media screen and (max-width: 740px) {
+
+
+
+    div h1 {font-size: 30PX;}
+
+    div a{
+        font-size: 15px;
+    }
+
+    div.icons{ 
+        transform: scale(0.8); 
+        overflow:visible;   
+    }
+
+
+}  
+
+
+
+
+
+
+
+
+
+
+
 img{
     width: 100%;
 }
@@ -47,13 +75,13 @@ p{
 }
 
 h2{
-    color:#8992fa;
+    color:#a0d6ea;
     text-align: center;
     font-size: 30PX;
 }
 
 h1{
-    color:#8992fa;
+    color:#a0d6ea;
     text-align: center;
     font-size: 60PX;
     font-family: 'Akronim';
@@ -144,6 +172,7 @@ a{
     display: flex;
     overflow: hidden;
     padding-left:0.5rem ;
+
 }
 
 .icons img{
