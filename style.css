@@ -68,6 +68,9 @@ h2{
     font-size: 30PX;
 }
 
+
+
+
 h1{
     color:#a0d6ea;
     text-align: center;
@@ -173,10 +176,10 @@ a{
 padding: 20px;
 }
 
-
-.scroll{
-
-  text-align: right;
+.arrowUp{
+    color:#a0d6ea;
+    font-size: 60PX;
+    text-align:right
 }
 
 
